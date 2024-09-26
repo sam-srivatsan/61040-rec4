@@ -18,7 +18,7 @@ const operations: Operation[] = [
     name: "Get Session User (logged in user)",
     endpoint: "/api/session",
     method: "GET",
-    fields: {},
+    fields: { id: "input"},
   },
   {
     name: "Create User",
